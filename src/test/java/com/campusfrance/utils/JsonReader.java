@@ -18,7 +18,7 @@ public class JsonReader {
                     .getResourceAsStream("data/" + nomFichier);
 
             if (inputStream == null) {
-                throw new RuntimeException("Fichier introuvable : data/" + nomFichier);
+                throw new RuntimeException("Fichier introuvable : Data/" + nomFichier);
             }
 
             return mapper.readValue(inputStream, new TypeReference<List<Utilisateur>>() {});
