@@ -214,8 +214,24 @@ public class EtudiantSteps {
 
         const dialogs = document.querySelectorAll('.ui-dialog, .ui-widget-overlay');
         dialogs.forEach(dialog => dialog.remove());
+
+        const tarteaucitronManager = document.getElementById('tarteaucitronManager');
+        if (tarteaucitronManager) tarteaucitronManager.remove();
+
+        const tarteaucitronRoot = document.getElementById('tarteaucitronRoot');
+        if (tarteaucitronRoot) tarteaucitronRoot.remove();
+
+        const tarteaucitronAlertBig = document.getElementById('tarteaucitronAlertBig');
+        if (tarteaucitronAlertBig) tarteaucitronAlertBig.remove();
+
+        const tarteaucitronPercentage = document.getElementById('tarteaucitronPercentage');
+        if (tarteaucitronPercentage) tarteaucitronPercentage.remove();
+
+        const cookieElements = document.querySelectorAll('[id^="tarteaucitron"], [class*="tarteaucitron"]');
+        cookieElements.forEach(element => element.remove());
     """);
 
-        System.out.println("Bloc avatar desactive");
+        System.out.println("Bloc avatar et cookies desactives");
+
     }
 }

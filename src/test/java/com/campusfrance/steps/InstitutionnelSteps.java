@@ -178,19 +178,34 @@ public class InstitutionnelSteps {
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
         js.executeScript("""
-            const wrapper = document.getElementById('edit-user-picture-wrapper');
-            if (wrapper) wrapper.remove();
+        const wrapper = document.getElementById('edit-user-picture-wrapper');
+        if (wrapper) wrapper.remove();
 
-            const modalButton = document.getElementById('edit-user-picture-entity-browser-entity-browser-open-modal');
-            if (modalButton) modalButton.remove();
+        const modalButton = document.getElementById('edit-user-picture-entity-browser-entity-browser-open-modal');
+        if (modalButton) modalButton.remove();
 
-            const hiddenTarget = document.getElementById('edit-user-picture-target-id');
-            if (hiddenTarget) hiddenTarget.value = '';
+        const hiddenTarget = document.getElementById('edit-user-picture-target-id');
+        if (hiddenTarget) hiddenTarget.value = '';
 
-            const dialogs = document.querySelectorAll('.ui-dialog, .ui-widget-overlay');
-            dialogs.forEach(dialog => dialog.remove());
-        """);
+        const dialogs = document.querySelectorAll('.ui-dialog, .ui-widget-overlay');
+        dialogs.forEach(dialog => dialog.remove());
 
-        System.out.println("Bloc avatar desactive");
+        const tarteaucitronManager = document.getElementById('tarteaucitronManager');
+        if (tarteaucitronManager) tarteaucitronManager.remove();
+
+        const tarteaucitronRoot = document.getElementById('tarteaucitronRoot');
+        if (tarteaucitronRoot) tarteaucitronRoot.remove();
+
+        const tarteaucitronAlertBig = document.getElementById('tarteaucitronAlertBig');
+        if (tarteaucitronAlertBig) tarteaucitronAlertBig.remove();
+
+        const tarteaucitronPercentage = document.getElementById('tarteaucitronPercentage');
+        if (tarteaucitronPercentage) tarteaucitronPercentage.remove();
+
+        const cookieElements = document.querySelectorAll('[id^="tarteaucitron"], [class*="tarteaucitron"]');
+        cookieElements.forEach(element => element.remove());
+    """);
+
+        System.out.println("Bloc avatar et cookies desactives");
     }
 }
