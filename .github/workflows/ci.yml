@@ -1,0 +1,40 @@
+name: CI - Tests Selenium Cucumber Maven
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  tests-selenium:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 1 - Recuperer le projet
+        uses: actions/checkout@v4
+
+      - name: 2 - Installer Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: maven
+
+      - name: 3 - Verifier Java
+        run: java -version
+
+      - name: 4 - Verifier Maven
+        run: mvn -version
+
+      - name: 5 - Lancer les tests Maven
+        run: mvn clean test
+
+      - name: 6 - Archiver le rapport Cucumber
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rapport-cucumber
+          path: target/cucumber-report.html

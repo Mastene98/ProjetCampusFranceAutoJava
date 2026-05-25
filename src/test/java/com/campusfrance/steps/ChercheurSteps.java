@@ -1,5 +1,5 @@
 package com.campusfrance.steps;
-
+import org.openqa.selenium.chrome.ChromeOptions;
 import com.campusfrance.models.Utilisateur;
 import com.campusfrance.utils.JsonReader;
 import io.cucumber.java.en.Given;
@@ -26,7 +26,16 @@ public class ChercheurSteps {
 
         WebDriverManager.chromedriver().setup();
 
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+
+        if (System.getenv("GITHUB_ACTIONS") != null) {
+            options.addArguments("--headless=new");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--window-size=1920,1080");
+        }
+
+        driver = new ChromeDriver(options);
         driver.manage().window().maximize();
 
         driver.get("https://www.campusfrance.org/fr/user/register");
