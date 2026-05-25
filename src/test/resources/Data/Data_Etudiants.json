@@ -1,0 +1,50 @@
+[
+  {
+    "email": "eren.yeager@gmail.com",
+    "motDePasse": "Eren@2026",
+    "confirmationMotDePasse": "Eren@2026",
+    "civilite": "Mr",
+    "nom": "Yeager",
+    "prenom": "Eren",
+    "paysResidence": "France",
+    "paysNationalite": "Allemagne",
+    "codePostal": "31000",
+    "ville": "Toulouse",
+    "telephone": "0645678901",
+    "vousEtes": "Etudiants",
+    "domaineEtudes": "Informatique",
+    "niveauEtudes": "Licence"
+  },
+  {
+    "email": "mikasa.ackerman@gmail.com",
+    "motDePasse": "Mikasa@2026",
+    "confirmationMotDePasse": "Mikasa@2026",
+    "civilite": "Mme",
+    "nom": "Ackerman",
+    "prenom": "Mikasa",
+    "paysResidence": "France",
+    "paysNationalite": "Japon",
+    "codePostal": "33000",
+    "ville": "Bordeaux",
+    "telephone": "0656789012",
+    "vousEtes": "Etudiants",
+    "domaineEtudes": "Sciences humaines et sociales",
+    "niveauEtudes": "Master"
+  },
+  {
+    "email": "armin.arlert@gmail.com",
+    "motDePasse": "Armin@2026",
+    "confirmationMotDePasse": "Armin@2026",
+    "civilite": "Mr",
+    "nom": "Arlert",
+    "prenom": "Armin",
+    "paysResidence": "France",
+    "paysNationalite": "Allemagne",
+    "codePostal": "59000",
+    "ville": "Lille",
+    "telephone": "0667890123",
+    "vousEtes": "Etudiants",
+    "domaineEtudes": "Mathématiques",
+    "niveauEtudes": "Doctorat"
+  }
+]

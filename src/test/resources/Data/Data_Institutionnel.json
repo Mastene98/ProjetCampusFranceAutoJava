@@ -1,0 +1,53 @@
+[
+  {
+    "email": "jean.kirstein@gmail.com",
+    "motDePasse": "Jean@2026",
+    "confirmationMotDePasse": "Jean@2026",
+    "civilite": "Mr",
+    "nom": "Kirstein",
+    "prenom": "Jean",
+    "paysResidence": "Botswana",
+    "paysNationalite": "Botswana",
+    "codePostal": "75012",
+    "ville": "Paris",
+    "telephone": "0612345678",
+    "vousEtes": "Institutionnel",
+    "fonction": "Responsable des relations internationales",
+    "typeOrganisme": "Université",
+    "nomOrganisme": "Université Paris Cité"
+  },
+  {
+    "email": "sasha.blouse@gmail.com",
+    "motDePasse": "Sasha@2026",
+    "confirmationMotDePasse": "Sasha@2026",
+    "civilite": "Mme",
+    "nom": "Blouse",
+    "prenom": "Sasha",
+    "paysResidence": "France",
+    "paysNationalite": "France",
+    "codePostal": "69003",
+    "ville": "Lyon",
+    "telephone": "0623456789",
+    "vousEtes": "Institutionnel",
+    "fonction": "Chargée de coopération internationale",
+    "typeOrganisme": "École",
+    "nomOrganisme": "École Supérieure de Commerce de Lyon"
+  },
+  {
+    "email": "connie.springer@gmail.com",
+    "motDePasse": "Connie@2026",
+    "confirmationMotDePasse": "Connie@2026",
+    "civilite": "Mr",
+    "nom": "Springer",
+    "prenom": "Connie",
+    "paysResidence": "France",
+    "paysNationalite": "Allemagne",
+    "codePostal": "13001",
+    "ville": "Marseille",
+    "telephone": "0634567890",
+    "vousEtes": "Institutionnel",
+    "fonction": "Coordinateur administratif",
+    "typeOrganisme": "Centre de recherche",
+    "nomOrganisme": "Institut Méditerranéen de Recherche"
+  }
+]

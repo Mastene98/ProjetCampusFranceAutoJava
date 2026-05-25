@@ -1,0 +1,50 @@
+[
+  {
+    "email": "zeke.yeager@gmail.com",
+    "motDePasse": "Zeke@2026",
+    "confirmationMotDePasse": "Zeke@2026",
+    "civilite": "Mr",
+    "nom": "Yeager",
+    "prenom": "Zeke",
+    "paysResidence": "France",
+    "paysNationalite": "Allemagne",
+    "codePostal": "67000",
+    "ville": "Strasbourg",
+    "telephone": "0678901234",
+    "vousEtes": "Chercheurs",
+    "domaineEtudes": "Biologie",
+    "niveauEtudes": "Post-doctorat"
+  },
+  {
+    "email": "annie.leonhart@gmail.com",
+    "motDePasse": "Annie@2026",
+    "confirmationMotDePasse": "Annie@2026",
+    "civilite": "Mme",
+    "nom": "Leonhart",
+    "prenom": "Annie",
+    "paysResidence": "France",
+    "paysNationalite": "Allemagne",
+    "codePostal": "44000",
+    "ville": "Nantes",
+    "telephone": "0689012345",
+    "vousEtes": "Chercheurs",
+    "domaineEtudes": "Psychologie",
+    "niveauEtudes": "Doctorat"
+  },
+  {
+    "email": "reiner.braun@gmail.com",
+    "motDePasse": "Reiner@2026",
+    "confirmationMotDePasse": "Reiner@2026",
+    "civilite": "Mr",
+    "nom": "Braun",
+    "prenom": "Reiner",
+    "paysResidence": "France",
+    "paysNationalite": "Allemagne",
+    "codePostal": "34000",
+    "ville": "Montpellier",
+    "telephone": "0690123456",
+    "vousEtes": "Chercheurs",
+    "domaineEtudes": "Sciences de l’ingénieur",
+    "niveauEtudes": "Doctorat"
+  }
+]
