@@ -15,7 +15,7 @@ public class JsonReader {
 
             InputStream inputStream = JsonReader.class
                     .getClassLoader()
-                    .getResourceAsStream("data/" + nomFichier);
+                    .getResourceAsStream("Data/" + nomFichier);
 
             if (inputStream == null) {
                 throw new RuntimeException("Fichier introuvable : Data/" + nomFichier);
